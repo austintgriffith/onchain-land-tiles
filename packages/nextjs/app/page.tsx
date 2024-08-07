@@ -48,7 +48,7 @@ const Home: NextPage = () => {
         </div>
 
         <div className="px-5">
-          <p>Your Grid Balance: {balance ? balance.toString() : "0"}</p>
+          <p>Your Balance: {balance ? balance.toString() : "0"}</p>
         </div>
 
         <div className="pb-10">
@@ -56,7 +56,7 @@ const Home: NextPage = () => {
             onClick={() => createGrid({ functionName: "createGrid" })}
             className="mt-5 btn btn-primary font-bold py-2 px-4 rounded"
           >
-            Create Grid
+            Mint 12x12 Land
           </button>
         </div>
 
